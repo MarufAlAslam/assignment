@@ -79,7 +79,8 @@ h1 {
 }
 
 .banner,
-.blogs {
+.blogs,
+.feedback {
     background: rgba(0, 0, 0, 0.02);
 }
 
@@ -183,4 +184,121 @@ img.w-100 {
     font-size: 16px;
     margin: 0;
     margin-left: 15px;
+}
+
+.midle {
+    justify-content: center;
+}
+
+.logos img {
+    height: 75px;
+    margin: 0 30px;
+}
+
+.footer {
+    background-color: rgb(4, 34, 59);
+}
+
+.white {
+    color: white;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.footer input {
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.footer .btn {
+    margin: 0;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    background-color: rgb(76, 76, 233);
+    padding: 0;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+.form-input {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px 20px;
+}
+
+.progress {
+    height: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+.inner.grad {
+    /* width: 85% !important; */
+    height: 100%;
+    border-radius: 30px;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    padding: 15px 25px;
+    margin-top: 20px;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.review {
+    margin-left: 15px;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.w-48 {
+    width: 48%;
 }
