@@ -78,7 +78,8 @@ h1 {
     color: white;
 }
 
-.banner {
+.banner,
+.blogs {
     background: rgba(0, 0, 0, 0.02);
 }
 
@@ -159,4 +160,27 @@ img.w-100 {
 
 .mt-3 {
     margin-top: 1.5rem;
+}
+
+.w-33 {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.ml-1 {
+    margin-left: 10px;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.flex.between.center.info i {
+    font-size: 16px;
+    margin: 0;
+    margin-left: 15px;
 }
