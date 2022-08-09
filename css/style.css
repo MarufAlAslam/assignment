@@ -120,3 +120,43 @@ i {
     grid-gap: 40px;
     margin-top: 40px;
 }
+
+.w-25 {
+    width: 25%;
+}
+
+.col {
+    position: relative;
+    overflow: hidden;
+}
+
+.body {
+    background: linear-gradient(90deg, rgba(70, 70, 207, 0.6), rgba(47, 119, 227, 0.6));
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+img.w-100 {
+    transform: scale(1.1);
+}
+
+.body:hover {
+    opacity: 1;
+}
+
+.relative {
+    position: relative;
+    overflow: hidden;
+}
+
+.mt-3 {
+    margin-top: 1.5rem;
+}
