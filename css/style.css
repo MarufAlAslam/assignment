@@ -496,3 +496,97 @@ hr {
     background: #7b7bf2;
     color: white;
 }
+
+.shadow.mb-3 {
+    background: white;
+    box-shadow: -5px 5px 22px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.text-start {
+    text-align: left;
+}
+
+.comment-card {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.h-50 {
+    height: 50px;
+    outline: unset;
+    box-shadow: unset;
+}
+
+.border-0 {
+    border: 0;
+}
+
+textarea.border-0.w-100 {
+    font-size: 13px;
+    padding-left: 3px;
+    padding-top: 16px;
+    resize: unset;
+}
+
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .blogs.py-5 .w-33 {
+        width: 50%;
+        flex: 0 0 auto;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .logos.grad.py-5 img {
+        margin: 30px;
+    }
+
+    .footer .w-40 {
+        width: 30%;
+    }
+
+    .footer .btn {
+        width: 100%;
+    }
+
+    .left.w-25.flex.column.a-right.pe-3 {
+        width: 35%;
+    }
+
+    .w-67 .right.w-75 {
+        width: 65%;
+    }
+
+    .flex.inpField {
+        flex-wrap: nowrap;
+    }
+
+    .flex.between.center.mb-3 img.pe-3 {
+        padding: 0 !important;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .flex.between.nowrap,
+    .flex.between.nowrap .flex {
+        flex-wrap: nowrap;
+    }
+}
