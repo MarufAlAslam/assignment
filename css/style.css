@@ -302,3 +302,197 @@ textarea {
 .w-48 {
     width: 48%;
 }
+
+.blogBanner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/blog/blog-home-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+
+.btn-white {
+    background: white;
+}
+
+.cards .card.relative {
+    padding: 0;
+}
+
+/* 
+.cards .card .w-100 {
+    transform: unset;
+} */
+
+.card-inner {
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+hr {
+    background: white;
+    width: 80%;
+    height: 2px;
+    margin: 10px 0;
+}
+
+.w-67 {
+    width: 66%;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.a-right {
+    align-items: flex-end;
+}
+
+.a-right i {
+    font-size: 16px;
+}
+
+.text-end {
+    text-align: right;
+}
+
+.pe-3 {
+    padding-right: 10px;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.px-0 {
+    padding: 0 !important;
+}
+
+.p-5 {
+    padding: 3rem;
+}
+
+.border {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card.border.p-5 {
+    margin: 0;
+}
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.flex.inpField input {
+    width: 100%;
+    height: 50px;
+}
+
+.flex.inpField input {
+    border: unset;
+    background-color: transparent;
+    padding-left: 20px;
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+
+.p-5 {
+    padding: 3rem 1.5rem;
+}
+
+.flex.inpField {
+    background: #7b7bf2 !important;
+    border-radius: 30px;
+}
+
+.flex.inpField button {
+    margin: 0;
+    height: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px !important;
+    padding: 0 10px;
+    background: transparent;
+    border: unset;
+}
+
+.fa-search {
+    font-size: 16px;
+}
+
+.m-auto {
+    margin: 20px auto;
+}
+
+.txtxs.text-start {
+    text-align: left;
+}
+
+.ads {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.border-bottom {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.btn.w-auto {
+    width: auto;
+    padding: 0 10px;
+    color: white;
+}
+
+.outlined {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.pagination.mt-3 button {
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    position: unset;
+    font-size: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.pagination.mt-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn.active {
+    background: #7b7bf2;
+    color: white;
+}
