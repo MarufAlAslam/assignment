@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap')
+
+*
+  box-sizing: border-box
+
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Poppins', sans-serif
+  margin: 0
+  line-height: 1.3
+
+body
+  margin: 0
+  padding: 0
+
+.top
+  padding: 20px 0
+
+.container
+  max-width: 1140px
+  margin: auto
+
+.flex
+  display: flex
+
+.grid
+  display: grid
+
+.center
+  align-items: center
+
+.between
+  justify-content: space-between
+
+img
+  max-width: 100%
+
+a
+  text-decoration: none
+  color: black
+
+.end
+  justify-content: flex-end
+
+.menu a
+  display: inline-block
+  margin-left: 20px
+
+a.active
+  color: rgb(70, 70, 207)
+
+.w-50
+  width: 50%
+
+h1
+  font-size: 50px
+  text-transform: uppercase
+
+.btn
+  border: unset
+  margin: 15px 0
+  display: inline-block
+  padding: 15px 40px
+
+.grad
+  background: linear-gradient(90deg, rgb(70, 70, 207), rgb(47, 119, 227))
+  color: white
+
+.banner, .blogs, .feedback
+  background: rgba(0, 0, 0, 0.02)
+
+.py-5
+  padding: 3rem 0
+
+.pe-5
+  padding-right: 3rem
+
+.text-center
+  text-align: center
+
+h2
+  font-size: 40px
+
+.mb-3
+  margin-bottom: 1rem
+
+i
+  font-size: 22px
+  margin: 10px
+
+.my-3
+  margin: 1.2rem 0
+
+.text-muted
+  color: rgba(0, 0, 0, 0.5)
+
+.cols-3
+  grid-template-columns: repeat(3, 1fr)
+  grid-gap: 40px
+  margin-top: 40px
+
+.w-25
+  width: 25%
+
+.col
+  position: relative
+  overflow: hidden
+
+.body
+  background: linear-gradient(90deg, rgba(70, 70, 207, 0.6), rgba(47, 119, 227, 0.6))
+  position: absolute
+  top: 0
+  left: 0
+  height: 100%
+  width: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+  transition: 0.5s
+  opacity: 0
+
+img.w-100
+  transform: scale(1.1)
+
+.body:hover
+  opacity: 1
+
+.relative
+  position: relative
+  overflow: hidden
+
+.mt-3
+  margin-top: 1.5rem
+
+.w-33
+  width: 33.33%
+  padding: 15px
+
+.mb-5
+  margin-bottom: 3rem
+
+.ml-1
+  margin-left: 10px
+
+.img-fluid
+  width: 100%
+
+.flex.between.center.info i
+  font-size: 16px
+  margin: 0
+  margin-left: 15px
+
+.midle
+  justify-content: center
+
+.logos img
+  height: 75px
+  margin: 0 30px
+
+.footer
+  background-color: rgb(4, 34, 59)
+
+.white
+  color: white
+
+.w-40
+  width: 40%
+
+.footer
+  input
+    width: 100%
+    height: 50px
+    padding-left: 20px
+
+  .btn
+    margin: 0
+    height: 50px
+    display: inline-flex
+    justify-content: center
+    align-items: center
+    width: 50px
+    background-color: rgb(76, 76, 233)
+    padding: 0
+
+iframe
+  width: 100%
+  height: 500px
+
+.form-input
+  width: 100%
+  height: 50px
+  padding: 0 20px
+
+textarea
+  width: 100%
+  padding: 5px 20px
+
+.progress
+  height: 20px
+  background: rgba(0, 0, 0, 0.2)
+  margin-top: 10px
+  border-radius: 30px
+  border: 5px solid rgba(0, 0, 0, 0.1)
+
+.inner.grad
+  /* width: 85% !important;
+  height: 100%
+  border-radius: 30px
+
+.w-85
+  width: 85%
+
+.w-90
+  width: 90%
+
+.w-70
+  width: 70%
+
+.w-95
+  width: 95%
+
+.w-45
+  width: 45%
+
+.w-100
+  width: 100%
+
+.card
+  background-color: white
+  padding: 15px 25px
+  margin-top: 20px
+
+.circle
+  height: 30px
+  width: 30px
+  object-fit: cover
+  border-radius: 50%
+
+.review
+  margin-left: 15px
+
+.normal
+  font-weight: normal
+
+.w-48
+  width: 48%
+
+.blogBanner
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/blog/blog-home-banner.jpg")
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  padding: 150px 0
+
+.btn-white
+  background: white
+
+.cards .card.relative
+  padding: 0
+
+/* 
+ *.cards .card .w-100 {
+ *    transform: unset;
+ *}
+
+.card-inner
+  position: absolute
+  z-index: 100
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  width: 90%
+  height: 90%
+  background: rgba(0, 0, 0, 0.8)
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  color: white
+
+hr
+  background: white
+  width: 80%
+  height: 2px
+  margin: 10px 0
+
+.w-67
+  width: 66%
+
+.column
+  flex-direction: column
+
+.a-right
+  align-items: flex-end
+
+  i
+    font-size: 16px
+
+.text-end
+  text-align: right
+
+.pe-3
+  padding-right: 10px
+
+.w-75
+  width: 75%
+
+.px-0
+  padding: 0 !important
+
+.p-5
+  padding: 3rem
+
+.border
+  border: 1px solid rgba(0, 0, 0, 0.1)
+
+.card.border.p-5
+  margin: 0
+
+.pt-0
+  padding-top: 0
+
+.flex.inpField input
+  width: 100%
+  height: 50px
+  border: unset
+  background-color: transparent
+  padding-left: 20px
+  outline: unset !important
+  box-shadow: unset !important
+
+.p-5
+  padding: 3rem 1.5rem
+
+.flex.inpField
+  background: #7b7bf2 !important
+  border-radius: 30px
+
+  button
+    margin: 0
+    height: 50px
+    padding: 0
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 16px !important
+    padding: 0 10px
+    background: transparent
+    border: unset
+
+.fa-search
+  font-size: 16px
+
+.m-auto
+  margin: 20px auto
+
+.txtxs.text-start
+  text-align: left
+
+.ads
+  height: 250px
+  display: flex
+  justify-content: center
+  align-items: center
+  border: 1px solid rgba(0, 0, 0, 0.1)
+
+.border-bottom
+  border-bottom: 1px solid black
+  padding-bottom: 10px
+  padding-top: 10px
+
+.btn.w-auto
+  width: auto
+  padding: 0 10px
+  color: white
+
+.outlined
+  border: 1px solid rgba(0, 0, 0, 0.5)
+  background-color: transparent
+  padding: 5px 10px
+  margin: 5px
+
+.wrap
+  flex-wrap: wrap
+
+.pagination.mt-3
+  button
+    padding: 0
+    width: 40px
+    height: 40px
+    margin: 0
+    position: unset
+    font-size: 16px
+    display: inline-flex
+    justify-content: center
+    align-items: center
+    margin: 0 5px
+
+  display: flex
+  justify-content: center
+  align-items: center
+
+.btn.active
+  background: #7b7bf2
+  color: white
+
+.shadow.mb-3
+  background: white
+  box-shadow: -5px 5px 22px rgba(0, 0, 0, 0.1)
+  padding: 15px
+  margin-bottom: 30px
+
+.fs-13
+  font-size: 13px
+
+.text-start
+  text-align: left
+
+.comment-card
+  border: 1px solid rgba(0, 0, 0, 0.1)
+  padding: 30px
+  margin-top: 30px
+
+.h-50
+  height: 50px
+  outline: unset
+  box-shadow: unset
+
+.border-0
+  border: 0
+
+textarea.border-0.w-100
+  font-size: 13px
+  padding-left: 3px
+  padding-top: 16px
+  resize: unset
+
+.menuToggler
+  display: none
+
+@media screen and (max-width: 992px)
+  .container
+    max-width: 90%
+    margin: auto
+
+  h2
+    font-size: 25px
+
+  .blogs.py-5 .w-33
+    width: 50%
+    flex: 0 0 auto
+
+  .flex
+    flex-wrap: wrap
+
+  .logos.grad.py-5 img
+    margin: 30px
+
+  .footer
+    .w-40
+      width: 30%
+
+    .btn
+      width: 100%
+
+  .left.w-25.flex.column.a-right.pe-3
+    width: 35%
+
+  .w-67 .right.w-75
+    width: 65%
+
+  .flex
+    &.inpField
+      flex-wrap: nowrap
+
+    &.between
+      &.center.mb-3 img.pe-3
+        padding: 0 !important
+        width: 100%
+        margin-bottom: 10px
+
+      &.nowrap, &.center.info
+        flex-wrap: nowrap
+
+        .flex
+          flex-wrap: nowrap
+
+@media screen and (max-width: 767px)
+  .menuToggler
+    display: block
+    padding: 0
+
+  .menu.d-flex.end.center
+    flex-direction: column
+    display: flex
+    position: absolute
+    background: white
+    width: 100%
+    justify-content: center
+    align-items: center
+    z-index: 1
+    top: 77px
+    padding-top: 20px
+    padding-bottom: 50px
+
+    a
+      margin: 0
+      padding: 0 10px !important
+      display: block !important
+      margin-top: 10px
+      margin-bottom: 10px
+
+    flex-direction: column
+    display: flex
+    position: absolute
+    background: white
+    width: 100%
+    justify-content: center
+    align-items: center
+    z-index: 1
+    top: 77px
+    padding-bottom: 50px
+    left: 0
+    transition: 0.5s
+    transform: translateY(-200%)
+
+    &.active
+      transform: translateY(0)
+
+  .w-50
+    width: 100%
+
+    &.pe-5
+      padding: 0
+
+  .cols-3
+    grid-template-columns: repeat(1, 1fr)
+    grid-gap: 40px
+    margin-top: 40px
+
+  .w-25.text-center
+    width: 100%
+    margin-top: 20px
+
+  .blogs.py-5 .w-33
+    width: 100%
+    flex: 0 0 auto
+
+  .flex.between.center.info p
+    font-size: 12px
+
+  .container
+    max-width: 100%
+    margin: auto
+    padding: 0 10px
+
+  .footer
+    .w-40
+      width: 100%
+
+    .w-20
+      margin-top: 20px
+
+  .w-45
+    width: 100%
+
+  .w-48
+    width: 100%
+
+    .flex
+      flex-wrap: nowrap
+
+  h1
+    font-size: 30px
+    text-transform: uppercase
+
+  .w-33, .w-67, .left.w-25.flex.column.a-right.pe-3, .w-67 .right.w-75
+    width: 100%
+
+  /* .mainBlogs .flex.between.mb-3 {
+   *    flex-direction: column-reverse !important;
+   *}
+
+  .left.w-25.flex.column.a-right.pe-3
+    text-align: left
+    align-items: flex-start
+
+  .text-end
+    text-align: left
+
+  .flex
+    &.between.nowrap
+      display: none
+
+    &.center.between.mb-3 img.pe-3
+      width: 50px
+      margin-right: 10px
